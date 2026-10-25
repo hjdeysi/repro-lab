@@ -1,0 +1,5 @@
+__pycache__/
+mlflow.db
+mlruns/
+.venv/
+.ipynb_checkpoints/
