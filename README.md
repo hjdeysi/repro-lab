@@ -9,7 +9,7 @@ Student: Deisy Lizbeth Acosta Ticse · Instructor: Dr. Loveleen Gaur
 ## How to reproduce · Cómo reproducir
 Tested with **Python 3.13.17** on Linux.
 ```bash
-git clone <this-repo-url> repro-lab && cd repro-lab
+git clone https://github.com/hjdeysi/repro-lab.git repro-lab && cd repro-lab
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 PYTHONHASHSEED=0 python -m src.train --seed 42          # one run
